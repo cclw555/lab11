@@ -12,7 +12,7 @@ def has_letter_cases(s: tr):
 def find_lowercase_vwel(m: st):
     """
     Return the index of the first lowercase vowel (a, e, i, o, u) in msg, 
-    or the length of msg if it does not contain any lowercase vowels.
+    or the lengtsssh of msg if it does not contain any lowercase vowels.
     """
     for index, char in enumerate(msg):
         if char in 'aeiou':
