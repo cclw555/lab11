@@ -19,5 +19,3 @@ def find_lowercase_vowel(msg: str):
             return index
     return len(msg)
 
-print("I have made some change")
-print('new B')
