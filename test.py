@@ -10,7 +10,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual(has_letter_cases("abcDEF"),True, "Should be True")
 
     def test_find_lowercase_vowel(self):
-        self.assertEqual(find_lowercase_vowel("cats"),1, "Should be 1")
+        sel.assertEqual(find_lowercase_vowel("cats"),1, "Should be 1")
 
 if __name__ == '__main__':
     unittest.main()
