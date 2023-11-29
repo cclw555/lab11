@@ -9,7 +9,7 @@ def has_letter_cases(s: tr):
     """
     return not s.isupper() and not s.islower()
 
-def find_lowercase_vwel(mg: st):
+def find_lowercase_vwel(m: st):
     """
     Return the index of the first lowercase vowel (a, e, i, o, u) in msg, 
     or the length of msg if it does not contain any lowercase vowels.
