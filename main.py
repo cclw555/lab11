@@ -2,7 +2,7 @@ def odds_sum(L):
     """Return the sum of the odd elements of L."""
     return sum([i for i in L if i % 2 != 0])
 
-def has_letter_cases(s: str):
+def has_letter_cases(s: tr):
     """
     Return True if and only if s contains at least one lowercase letter and at 
     least one uppercase letter.
